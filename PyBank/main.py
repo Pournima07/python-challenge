@@ -67,3 +67,12 @@ with open(csv_filename,newline='') as csv_file:
     print("greatest increase in profits:", round(best_monthly_change,2) , " in month ", month_of_best_monthly_change)
     print("greatest decrease in losses:", round(worst_monthly_change, 2) , "in month", month_of_worst_monthly_change)
 
+with open("results.txt","w") as file:
+
+    
+    file.write("Total_numbers_of_list_of_months:" + str(nbr_of_list_of_months) + "\n")
+    file.write("Net_profit_loss:" + str(round(net_profit_loss, 2)) + "\n") 
+    file.write("Ave_change:" + str(round(ave_change, 2)) + "\n") 
+    file.write("greatest increase in profits:" + str(round(best_monthly_change,2)) + " in month " + str(month_of_best_monthly_change) + "\n")
+    file.write("greatest decrease in losses:" + str(round(worst_monthly_change, 2)) + "in month" + str(month_of_worst_monthly_change) + "\n")
+

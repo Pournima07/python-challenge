@@ -44,3 +44,12 @@ print("votes_for_each_candidate so far: ", votes_for_each_candidate)
 print("List of candidates: ", votes_for_each_candidate.keys())
 print("Percentage of Votes:", percent_votes)
 print("Winner is : ", winner_name)
+
+with open("results.txt","w") as file:
+    file.write("Total Numbers of Votes:" + str(num_of_votes) + "\n")
+    file.write("votes_for_each_candidate so far: " + str( votes_for_each_candidate) + "\n") 
+    file.write("List of candidates: " + str( votes_for_each_candidate.keys()) + "\n") 
+    file.write("Percentage of Votes:" + str( percent_votes) + "\n")
+    file.write("Winner is : " + str( winner_name) + "\n")
+
+

@@ -1,0 +1,5 @@
+Total Numbers of Votes:3521001
+votes_for_each_candidate so far: {'Khan': 2218231, 'Correy': 704200, 'Li': 492940, "O'Tooley": 105630}
+List of candidates: dict_keys(['Khan', 'Correy', 'Li', "O'Tooley"])
+Percentage of Votes:{'Khan': '63.0%', 'Correy': '20.0%', 'Li': '14.0%', "O'Tooley": '3.0%'}
+Winner is : Khan
