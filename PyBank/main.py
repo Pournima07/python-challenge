@@ -1,7 +1,7 @@
 import os
 import csv
 
-csv_filename = 'C:\\Learn\\Python\\python Homework PayBank.csv'
+csv_filename = 'python Homework PayBank.csv'
 
 with open(csv_filename,newline='') as csv_file:
 
